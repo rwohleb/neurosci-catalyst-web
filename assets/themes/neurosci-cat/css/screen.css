@@ -6,7 +6,6 @@ body {
 }
 
 #header .logo {
-  margin-bottom: 35px;
 }
 #header .navbar {
   margin-top: 15px;
@@ -50,8 +49,8 @@ body {
   background: white;
   border: 1px solid #ccc;
   padding: 3em 3em 1.5em 3em;
-  margin-top: -140px;
-  padding-top: 130px;
+  margin-top: -130px;
+  padding-top: 140px;
 }
 
 #page .page-header {
