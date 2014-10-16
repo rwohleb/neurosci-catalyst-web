@@ -2,7 +2,15 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Neurosci.sublime-project", "Neurosci.sublime-workspace"]
+exclude: [".rvmrc",
+          ".rbenv-version",
+          "README.md",
+          "Rakefile",
+          "changelog.md",
+          "Neurosci.sublime-project",
+          "Neurosci.sublime-workspace",
+          "assets/themes/neurosci-cat/bootstrap_src"]
+
 highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
@@ -24,6 +32,9 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://neurosciencecatalyst.com
+
+#markdown: redcarpet
+lessc: /usr/local/bin/lessc
 
 defaults:
   -
