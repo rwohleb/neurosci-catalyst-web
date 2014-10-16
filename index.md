@@ -22,16 +22,7 @@ Neuroscience Catalyst is a public-private partnership between the University of 
 
 {% markdown %}
 
-#### CALL FOR APPLICATIONS ####
-
-{% endmarkdown %}
-
-    </div>
-    <div class="callout">
-
-{% markdown %}
-
-#### APPLY HERE ####
+#### [Apply Here]({{site.url}}/apply) ####
 
 {% endmarkdown %}
 
@@ -41,6 +32,19 @@ Neuroscience Catalyst is a public-private partnership between the University of 
 {% markdown %}
 
 #### Upcoming Events ####
+
+__November 6th__  
+Launch event & Informational session (NOTE: will link to register)  
+Toronto, Canada
+
+__November 17th__  
+Informational session (NOTE: will link to register)  
+Neuroscience Summit  
+Washington, DC
+
+__November 24th__  
+University of Toronto Neuroscience Day  (NOTE: will link to register)  
+Toronto, Canada
 
 {% endmarkdown %}
 
