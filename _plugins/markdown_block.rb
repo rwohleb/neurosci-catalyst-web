@@ -7,6 +7,12 @@
 # [Stack Overflow](http://www.stackoverflow.com)
 # {% endmarkdown %}
 #
+# 
+# Alternatives:
+#
+# Doesn't require a plugin.
+# {{ page.excerpt | markdownify }}
+#
 module Jekyll
   class MarkdownBlock < Liquid::Block
     def initialize(tag_name, text, tokens)
