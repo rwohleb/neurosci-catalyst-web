@@ -58,7 +58,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-3">
           <h1 class="logo">
-            <a href="{{ HOME_PATH }}" title="{{ site.title }}"><img src="{{ ASSET_PATH }}/images/logo_250.png" /></a>
+            <a href="{{ HOME_PATH }}" title="{{ site.title }}">
+              <img src="{{ ASSET_PATH }}/images/logo_250.png" srcset="{{ ASSET_PATH }}/images/logo_250.png 1x, {{ ASSET_PATH }}/images/logo_500.png 2x" />
+            </a>
           </h1>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9">
