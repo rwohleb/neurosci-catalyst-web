@@ -94,13 +94,17 @@
     {{ content }}
     
     <div class="container" id="footer">
-      <address>
-        <span class="copyright">
-          Content by <a href="/contact">{{ site.author.name }}</a>.
-          <br/>
-          (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
-        </span>
-      </address>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="http://www.collaborativedrugresearch.ca" target="_blank"><img src="{{ ASSET_PATH }}/images/UTC_150.png" srcset="{{ ASSET_PATH }}/images/UTC_150.png 1x, {{ ASSET_PATH }}/images/UTC_300.png 2x" /></a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="http://www.janssen.com" target="_blank"><img src="{{ ASSET_PATH }}/images/Janssen_150.png" srcset="{{ ASSET_PATH }}/images/Janssen_150.png 1x, {{ ASSET_PATH }}/images/Janssen_300.png 2x" /></a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="http://www.jnjinnovation.com" target="_blank"><img src="{{ ASSET_PATH }}/images/JandJ_150.png" srcset="{{ ASSET_PATH }}/images/JandJ_150.png 1x, {{ ASSET_PATH }}/images/JandJ_300.png 2x" /></a>
+        </div>
+      </div>
     </div>
     
   </div>
