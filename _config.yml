@@ -20,7 +20,7 @@ title : Neuroscience Catalyst
 tagline: Neuroscience Catalyst
 author :
   name : "University of Toronto, Janssen Inc. and the Johnson & Johnson Innovation Center in California"
-  email : info@neurosciencecatalyst.com
+  email : info@neurosciencecatalyst.ca
   twitter : neuroscicatalyst
 
 # The production_url is only used when full-domain names are needed
@@ -31,7 +31,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://neurosciencecatalyst.com
+production_url : http://neurosciencecatalyst.ca
 
 #markdown: redcarpet
 lessc: /usr/local/bin/lessc

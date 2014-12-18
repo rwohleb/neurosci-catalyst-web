@@ -13,7 +13,7 @@
   {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
   {% endif %}
-  
+
   {% if site.author.feedburner %}
     <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}" title="RSS feed" />
   {% endif %}
@@ -46,17 +46,16 @@
   <![endif]-->
 
   <!-- Fav and touch icons -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.ico">
+  <link rel="icon" sizes="180x180" href="{{ ASSET_PATH }}/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/apple-touch-icon.png">
 </head>
 <body id="{{ page.section }}">
 
   {% include JB/analytics %}
 
   <div id="site">
-    
+
     <div class="container" id="header">
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-3">
@@ -95,9 +94,9 @@
     </div>
 
     {{ content }}
-    
+
     <div class="container" id="footer">
-      <div class="row">
+      <div class="row logos">
         <div class="col-xs-12 col-sm-4">
           <a href="http://www.collaborativedrugresearch.ca" target="_blank"><img src="{{ ASSET_PATH }}/images/UTC_150.png" srcset="{{ ASSET_PATH }}/images/UTC_150.png 1x, {{ ASSET_PATH }}/images/UTC_300.png 2x" /></a>
         </div>
@@ -108,8 +107,17 @@
           <a href="http://www.jnjinnovation.com" target="_blank"><img src="{{ ASSET_PATH }}/images/JandJ_150.png" srcset="{{ ASSET_PATH }}/images/JandJ_150.png 1x, {{ ASSET_PATH }}/images/JandJ_300.png 2x" /></a>
         </div>
       </div>
+      <div class="row legal">
+        <div class="col-xs-12">
+          &copy; 2014 Janssen Inc.
+          &#8226;
+          <a href="http://www.janssen.ca/privacy-policy" target="_blank">Privacy</a>
+          &#8226;
+          <a href="http://www.janssen.ca/legal-notice" target="_blank">Terms of Use</a>
+        </div>
+      </div>
     </div>
-    
+
   </div>
 </body>
 </html>
