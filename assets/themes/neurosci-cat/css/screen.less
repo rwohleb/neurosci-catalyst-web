@@ -135,6 +135,12 @@ body#interests .interest {
   margin-right: 20px;
 }
 
+body#partners {
+  .sidebar img {
+    max-width: 240px;
+  }
+}
+
 #footer {
   border-top: 1px solid #eee;
   /*
@@ -247,9 +253,12 @@ body#interests .interest {
     left: 29px;
   }
 
-  #header .nav>li>a {
-    padding-left: 13px;
-    padding-right: 13px;
+  #header .nav {
+    font-size: 0.95em;
+    &>li>a {
+      padding-left: 9px;
+      padding-right: 10px;
+    }
   }
 
   img.inline, img.inline-right {
@@ -263,8 +272,11 @@ body#interests .interest {
   #header .tagline {
     left: 42px;
   }
-  #header .nav>li>a {
-    padding-left: 25px;
-    padding-right: 25px;
+  #header .nav {
+    font-size: 0.95em;
+    &>li>a {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 }
